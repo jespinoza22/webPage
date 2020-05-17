@@ -38,6 +38,7 @@
 /* icon */
 
 body {
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
 }
 
@@ -172,7 +173,7 @@ ul {
 .hero {
     height: 300px;
     position: relative;
-    padding: 2em;
+    padding: 0;
 }
 
 h1 {
@@ -196,4 +197,41 @@ h1 {
     top: 0;
     bottom: 0;
     width: 100%;
+}
+
+.experience h2 {
+    margin: 0;
+    text-align: center;
+    padding: .5em 0 .5em 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #026fff;
+}
+
+.experience h3 {
+    margin: 0;
+    padding: .5em 0 .5em 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience p {
+    margin: 0;
+    padding: 0 1em 0;
+    text-align: justify;
+}
+
+.experience-article {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.exeperience-imageContainer {
+    margin: 10px;
+}
+
+.exeperience-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
