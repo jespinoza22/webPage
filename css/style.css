@@ -223,7 +223,7 @@ h1 {
 .experience-article {
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
+    margin: 0.8em;
 }
 
 .exeperience-imageContainer {
@@ -234,4 +234,57 @@ h1 {
     width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+.project {
+    margin: 0;
+}
+
+.project-imageContainer {
+    margin: 0;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: auto;
+}
+
+.project-article {
+    margin: 0.8em;
+    border-radius: 10px;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-description {
+    margin: 1em 0;
+    padding: 0 1em 0;
+    text-align: justify;
+}
+
+.project-url {
+    text-decoration: none;
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.project-detail {
+    text-align: center;
+    position: relative;
+    padding: 1em;
+    margin: -2em 1em 1em;
+    background-color: white;
+}
+
+.project-title {
+    margin: 0;
+    text-align: center;
+    padding: .5em 0 .5em 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #026fff;
 }
