@@ -163,7 +163,7 @@ h1 {
     width: 100%;
 }
 
-.experience h2 {
+.experience-title {
     margin: 0;
     text-align: center;
     padding: .5em 0 .5em 0;
@@ -300,4 +300,181 @@ form {
 
 .social a {
     text-decoration: none;
+}
+
+.container {
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    /* width: 100%; */
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+@media screen and (min-width: 480px){
+    
+}
+
+
+@media screen and (min-width: 768px){
+
+    .burger-button {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border: 0;
+        height: 80px;
+        /* position: fixed; */
+    }
+
+    .header a {
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .header ol { 
+        display: flex;
+        height: inherit;
+    }
+
+    .header li {
+        letter-spacing: 0;
+        display: flex;
+        padding: 5px 10px 5px;
+    }
+
+    .header li:hover {
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+
+    .menu {
+        display: flex;
+        position: inherit;
+        background-color: white;
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .link {
+        width: inherit;
+        color: black;
+    }
+
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 0;
+        align-items: center;
+        height: 550px;
+    }
+
+    .hero-image {
+        width: 50%;
+        height: auto;
+        position: relative;
+        z-index: inherit;
+        border-radius: 10px;
+    }
+
+    h1 {
+        position: relative;
+        z-index: inherit;
+        background-color: white;
+        color:black;
+        font-size: 2em;
+        padding: 0 50px 0;
+    }
+
+    h1 strong {
+        color: blue;
+    }
+
+    .experience {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .experience h2 {
+        text-align: inherit;
+        padding: .5em;
+    }
+
+    .experience-article {
+        display: block;
+        width: 47%;
+        /* width: 50%; */
+    }
+
+    .experience-title {
+        padding: .5em;
+        margin: .5em 0;
+        text-align: left;
+    }
+
+    .exeperience-imageContainer {
+        text-align: center;
+    }
+
+    .exeperience-image {
+        width: 80%;
+        height: 60%;
+        border-radius: 50px;
+    }
+
+    .project-title {
+        padding: .5em;
+        margin: .5em 0;
+        text-align: left;
+    }
+
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .project-article {
+        display: block;
+        width: 47%;
+    }
+
+    .project-image {
+        width: 100%;
+    }
+
+    .project-imageContainer {
+        display: block;
+    }
+
+    .project-detail {
+        display: block;
+    }
+
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .form-email {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .form-email input {
+        height: 20px;
+    }
 }
